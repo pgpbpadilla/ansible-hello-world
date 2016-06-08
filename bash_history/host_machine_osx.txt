@@ -1,0 +1,89 @@
+542	 cd learn/ansible/
+543	 sudo mkdir /etc/ansible
+544	 sudo touch /etc/ansible/hosts
+545	 sudo emacs -nw /etc/ansible/hosts 
+546	 cat /etc/ansible/hosts
+547	 la ~/.ssh/
+548	 la ~/.ssh/*.pub
+549	 ssh-keygen 
+550	 pbcopy ~/.ssh/ansible_no_pwd.pub 
+551	 pbcopy < ~/.ssh/ansible_no_pwd.pub 
+552	 ssh-add -l
+553	 ssh-add 
+554	 ssh-add ~/.ssh/ansible_no_pwd
+555	 ssh-add -l
+556	 ssh -T vagrant@192.168.33.10
+557	 ssh -T vagrant@192.168.33.10
+558	 ssh -T vagrant@192.168.33.10
+559	 ssh -T vagrant@192.168.33.10
+560	 ssh -T vagrant@192.168.33.10
+561	 emcs 
+562	 ansible all -m ping
+563	 ansible all -m ping
+564	 ansible all -m ping
+565	 ansible all -m ping
+566	 ansible all -vvv -m ping
+567	 ansible all -vvvv -m ping
+568	 ansible all -vvvv -m ping
+569	 ansible all -vvvv -m ping
+570	 ansible all -v
+571	 ansible all -v -m ping
+572	 ansible all -v -m ping
+573	 sudo emacs -nw /etc/ansible/hosts
+574	 ansible all -v -m ping
+575	 ansible all -v -m ping
+576	 sudo emacs -nw /etc/ansible/hosts
+577	 cat /etc/ansible/hosts
+578	 ansible all -v -m ping
+579	 ansible all -v -m ping
+580	 ansible all -vv -m ping
+581	 ansible all -vvv -m ping
+582	 sudo emacs -nw /etc/ansible/hosts
+583	 ansible all -vvv -m ping
+584	 ssh vagrant@192.168.33.10
+585	 hostname
+586	 ansible all -vvv -m ping
+587	 ansible all -vvv -m ping
+588	 ansible all -vvv -m ping
+589	 la
+590	 sudo mv /etc/hosts .
+591	 la
+592	 sudo chown ppadilla:staff hosts 
+593	 la
+594	 mv hosts inventory
+595	 ansible -i inventory all -m ping
+596	 cat inventory 
+597	 cat /etc/hosts
+598	 sudo cp inventory /etc/hosts
+599	 cat /etc/hosts
+600	 la /etc/hosts.equiv 
+601	 sudo chmown root:wheel /etc/hosts
+602	 sudo chown root:wheel /etc/hosts
+603	 la /etc/hosts
+604	 rm inventory 
+605	 sudo mv /etc/ansible/hosts ./inventory 
+606	 sudo chown ppadilla:staff inventory 
+607	 la
+608	 ansible -i inventory all -m ping
+609	 ansible -i -vvvv inventory all -m ping
+610	 ansible -vvvv -i inventory all -m ping
+611	 la /etc/ansible/
+612	 sudo rm /etc/ansible
+613	 sudo rm /etc/ansible/hosts~ 
+614	 sudo rm /etc/ansible
+615	 sudo rmdir /etc/ansible
+616	 ansible -vvvv -i inventory all -m ping
+617	 git init
+618	 stree
+619	 mkdir docs
+620	 ssh vagrant@192.168.33.10 -i .vagrant/machines/default/virtualbox/private_key 
+621	 la
+622	 cat inventory 
+623	 emcs 
+624	 la
+625	 la docs/
+626	 ansible -vvvv -i inventory all -m ping
+627	 open . 
+628	 ansible -i inventory all -a "/bin/echo hello"
+629	 history 
+630	 fc -l 550 630

@@ -1,0 +1,34 @@
+13  sudo apt-get update
+   14  cd /etc/
+   15  la
+   16  which ansible
+   17  pip install ansible
+   18  apt-get update
+   19  sudo apt-get install software-properties-common
+   20  sudo apt-add-repository ppa:ansible/ansible
+   21  sudo apt-get install software-properties-common python-software-properties
+   22  sudo apt-add-repository ppa:ansible/ansible
+   23  sudo apt-get update
+   24  sudo apt-get install ansible
+   25  ansible --version
+   26  pip
+   27  cd /etc/ansible/
+   28  la
+   29  cat hosts
+   30  cd
+   31  cd .ssh/
+   32  la
+   33  sudo apt-get install emacs
+   34  emacs authorized_keys
+   35  tail -f /var/log/syslog
+   36  tail -f /var/log/auth.log
+   37  emacs authorized_keys
+   38  tail -f /var/log/auth.log
+   39  emacs authorized_keys
+   40  tail -f /var/log/auth.log
+   41  emacs authorized_keys
+   42  tail -f /var/log/auth.log
+   43  emacs authorized_keys
+   44  tail -f /var/log/auth.log
+   45  emacs authorized_keys
+   46  tail -f /var/log/auth.log
