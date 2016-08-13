@@ -12,6 +12,10 @@ a_list:
       - e.bar.com
       - f.bar.com
 
-a_dictionary:
-  one: one
-  two: two
+envs_dict:
+  one:
+    fileX: A
+    b: B
+  two:
+    fileX: C
+    d: D

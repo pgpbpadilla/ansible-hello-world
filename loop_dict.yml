@@ -2,16 +2,16 @@
             
   tasks:
     - name: loop through a dictionary
-      debug: msg="{{ item }}"
-      with_dict: "{{ a_dictionary }}"
+      debug: msg="env.key is `{{ item.key }}` and fileX is `{{ item.value.fileX }}`"
+      with_dict: envs_dict
       tags: dict
     - name: loop through a list
       debug: msg="{{ item }}"
-      with_items: "{{ a_list }}"
+      with_items: a_list
       tags: list
-    
-    # - name: Add a domain symlinks /tmp for server_aliases.
-    #   debug: msg="name - {{ item.0.name }} and serverAlias - {{ item.1 }}"
-    #   with_subelements: 
-    #     - apache_vhosts
-    #     - server_aliases 
+    - name: loop on neste elements in list
+      debug: msg="name - {{ item.0.name }} and serverAlias - {{ item.1 }}"
+      with_subelements: 
+        - a_list
+        - server_aliases 
+      tags: nested_list
