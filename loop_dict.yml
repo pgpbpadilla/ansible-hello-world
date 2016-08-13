@@ -1,9 +1,14 @@
 - hosts: vagrant
             
   tasks:
-    - name: Add a domain symlinks /tmp for server_name.
+    - name: loop through a dictionary
       debug: msg="{{ item }}"
-      with_items: "{{ vagrant }}"
+      with_dict: "{{ a_dictionary }}"
+      tags: dict
+    - name: loop through a list
+      debug: msg="{{ item }}"
+      with_items: "{{ a_list }}"
+      tags: list
     
     # - name: Add a domain symlinks /tmp for server_aliases.
     #   debug: msg="name - {{ item.0.name }} and serverAlias - {{ item.1 }}"

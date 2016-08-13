@@ -1,4 +1,4 @@
-vagrant:
+a_list:
   - name: foo
     server_name: foo.com
     server_aliases:
@@ -11,3 +11,7 @@ vagrant:
       - d.bar.com
       - e.bar.com
       - f.bar.com
+
+a_dictionary:
+  one: one
+  two: two
