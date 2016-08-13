@@ -14,8 +14,15 @@ a_list:
 
 envs_dict:
   one:
-    fileX: A
-    b: B
+    fileX: 
+      b: B
   two:
-    fileX: C
-    d: D
+    fileX:
+      d: D
+  subdict:
+    fileX: 
+      s1: non
+    k1:
+      s1: blahblah
+    k2: 
+      s1: woowoo

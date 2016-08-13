@@ -5,6 +5,10 @@
       debug: msg="env.key is `{{ item.key }}` and fileX is `{{ item.value.fileX }}`"
       with_dict: envs_dict
       tags: dict
+    - name: access nested element in dictionary
+      debug: msg="s1 is {{ item.value.s1 }}"
+      with_dict: envs_dict.subdict
+      tags: nested_dict
     - name: loop through a list
       debug: msg="{{ item }}"
       with_items: a_list
