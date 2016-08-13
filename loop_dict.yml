@@ -1,0 +1,12 @@
+- hosts: vagrant
+            
+  tasks:
+    - name: Add a domain symlinks /tmp for server_name.
+      debug: msg="{{ item }}"
+      with_items: "{{ vagrant }}"
+    
+    # - name: Add a domain symlinks /tmp for server_aliases.
+    #   debug: msg="name - {{ item.0.name }} and serverAlias - {{ item.1 }}"
+    #   with_subelements: 
+    #     - apache_vhosts
+    #     - server_aliases 

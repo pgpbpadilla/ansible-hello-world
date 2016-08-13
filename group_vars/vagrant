@@ -1,0 +1,13 @@
+vagrant:
+  - name: foo
+    server_name: foo.com
+    server_aliases:
+      - a.foo.com
+      - b.foo.com
+      - c.foo.com
+  - name: bar
+    server_name: bar.com
+    server_aliases:
+      - d.bar.com
+      - e.bar.com
+      - f.bar.com
